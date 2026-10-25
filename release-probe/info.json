@@ -1,0 +1,1 @@
+{"name":"quality-upcycler-release-probe","version":"0.1.0","title":"Upcycler release checks","author":"Production Chain Lab","factorio_version":"2.1","dependencies":["quality-upcycler-probe","space-age"]}

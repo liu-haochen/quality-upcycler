@@ -1,0 +1,24 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2026-10-25
+  Features:
+    - Added a 3x3 quality upcycler unlocked with Quality module 1.
+    - Supports physical production items, including ammo, armor, equipment, science packs and vehicles.
+    - Uses four quality-module slots with external sorting and recirculation.
+    - Preserves surviving items' condition, contents and installed equipment.
+    - Records actual products and their qualities in production statistics.
+  Balancing:
+    - 360 kW active power, 12 kW idle drain, 4 pollution per minute.
+    - Recycler crafting speed and existing upgrade probabilities are retained.
+  Optimizations:
+    - Settle outputs on native craft completion instead of polling every running machine.
+    - Use lightweight waiting checks, cached inventories and reusable query tables.
+    - Avoid temporary item inventories for pristine ammo, tools and ordinary products.
+    - Skip the one-tick handoff observation queue for plain, pristine, non-perishable items.
+    - Cache recipe item mappings, share product/flow parameter tables, and use a single output-fullness check.
+    - Store machine counters directly on the machine state and fetch staging inventory lazily.
+    - Preserve running jobs when updating an existing save.
+
+
+
+

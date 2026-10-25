@@ -1,0 +1,10 @@
+runtime/
+runtime-*/
+dist/
+__pycache__/
+*.pyc
+*.bak
+*.blend1
+*.blend2
+art/
+analysis/

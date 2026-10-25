@@ -1,0 +1,9 @@
+{
+  "name": "quality-upcycler",
+  "version": "0.1.0",
+  "title": "Quality Upcycler",
+  "author": "Production Chain Lab",
+  "factorio_version": "2.1",
+  "dependencies": ["base >= 2.1.0", "quality >= 2.1.0", "recycler >= 2.1.0", "? space-age"],
+  "description": "Upgrade items with quality modules in a compact 3x3 machine. Sort and recirculate outputs to reach higher qualities."
+}
